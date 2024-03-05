@@ -33,6 +33,7 @@ function getRandomHexColor(){
   
     color.textContent = hexColor;
     document.body.style.backgroundColor = hexColor;
+     color.style.color = hexColor;
      return hexColor;
 } 
 
@@ -43,6 +44,7 @@ function getRandomSimpleColor(){
   
     document.body.style.backgroundColor = colors[randomNumber];
     color.textContent = colors[randomNumber];
+     color.style.color = colors[randomNumber];
     return colors[randomNumber]
 }
 
